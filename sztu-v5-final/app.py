@@ -1,1 +1,4 @@
-from sztu-v5-final.sztu-v5.run import *
+import os
+import sys
+sys.path.append(os.path.dirname(__file__) + "/sztu-v5")
+import run
